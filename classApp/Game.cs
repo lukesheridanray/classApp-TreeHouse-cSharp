@@ -9,7 +9,7 @@ namespace TreehouseDefense
 
             Point point = new Point(4, 2);
 
-            bool isOnMap = map.OnMap(point);
+            bool isOnMap = map.OnMap(point); 
             
             point = new Point(8, 5);
             isOnMap = map.OnMap(point);
